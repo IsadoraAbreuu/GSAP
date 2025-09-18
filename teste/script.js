@@ -10,7 +10,7 @@ function Animacao(elem, xPosicao) {
         x: xPosicao,
         duration: 2,
         opacity: 1,
-        ease: Elastic.easeOut,
+        ease: "bounce.out",
         scrollTrigger: {
             trigger: sectionCard,
             start: 'top center',
